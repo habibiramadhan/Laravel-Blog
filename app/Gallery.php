@@ -12,9 +12,4 @@ class Gallery extends Model
     {
         return $this->belongsTo(User::class);
     }
-
-    public function categories()
-    {
-        return $this->belongsToMany(related:Category::class, table:'category_post');
-    }
 }
