@@ -71,7 +71,7 @@
 
     <script>
         $(document).ready(function () {
-            CKEDITOR.replace('details');
+            // CKEDITOR.replace('details');
 
             $('#category_id').select2({
                 placeholder: "Pilih Kategori"
