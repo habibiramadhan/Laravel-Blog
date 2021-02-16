@@ -56,7 +56,7 @@
                     </div>
                 </div>
 
-                <div class="card mt-4">
+                {{-- <div class="card mt-4">
                     <div class="card-header">Latest Page</div>
 
                     <div class="card-body">
@@ -80,7 +80,7 @@
                             </tbody>
                         </table>
                     </div>
-                </div>
+                </div> --}}
             </div>
         </div>
     </div>

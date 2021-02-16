@@ -11,6 +11,7 @@
 
     <!-- Scripts -->
     {{--<script src="{{ asset('js/app.js') }}" defer></script>--}}
+    <script src="//cdn.tinymce.com/4/tinymce.min.js"></script>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -54,16 +55,16 @@
                         @endif
                         @else
                             <li class="nav-item">
-                                <a class="nav-link" href="{{ route('categories.index') }}">{{ __('Categories') }}</a>
+                                <a class="nav-link" href="{{ route('categories.index') }}">Kategori Materi</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="{{ route('posts.index') }}">{{ __('Posts') }}</a>
+                                <a class="nav-link" href="{{ route('posts.index') }}">Materi</a>
                             </li>
-                            <li class="nav-item">
+                            {{-- <li class="nav-item">
                                 <a class="nav-link" href="{{ route('pages.index') }}">{{ __('Pages') }}</a>
-                            </li>
+                            </li> --}}
                             <li class="nav-item">
-                                <a class="nav-link" href="{{ route('galleries.index') }}">{{ __('Galleries') }}</a>
+                                <a class="nav-link" href="{{ route('galleries.index') }}">Gambar</a>
                             </li>
 
                             <li class="nav-item dropdown">
