@@ -60,7 +60,7 @@ class PostController extends Controller
         $post->thumbnail = $request->thumbnail;
         $post->title = $request->title;
         $post->slug = str_slug($request->title);
-        $post->sub_title = $request->sub_title;
+        // $post->sub_title = $request->sub_title;
         $post->details = $request->details;
         $post->is_published = $request->is_published;
         $post->post_type = 'post';
@@ -123,7 +123,7 @@ class PostController extends Controller
         $post->thumbnail = $request->thumbnail;
         $post->title = $request->title;
         $post->slug = str_slug($request->title);
-        $post->sub_title = $request->sub_title;
+        // $post->sub_title = $request->sub_title;
         $post->details = $request->details;
         $post->is_published = $request->is_published;
         $post->save();

@@ -9,7 +9,7 @@
                 <div class="col-lg-8 col-md-10 mx-auto">
                     <div class="post-heading">
                         <h1>{{ $page->title }}</h1>
-                        <h2 class="subheading">{{ $page->sub_title }}</h2>
+                        {{-- <h2 class="subheading">{{ $page->sub_title }}</h2> --}}
                         <span class="meta">Posted by
               <a href="#">{{ $page->user->name }}</a>
               on {{ date('M d, Y', strtotime($page->created_at)) }}</span>
